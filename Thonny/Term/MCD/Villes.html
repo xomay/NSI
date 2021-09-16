@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <span class='relation'>CLIENTS</span> (
+    <span class='primary'>num_client</span>,
+    <span class='normal'>nom</span>,
+    <span class='normal'>adresse</span>,
+    <span class='foreign'>num_commande</span>
+  )
+</div>
+<div>
+  <span class='relation'>COMMANDES</span> (
+    <span class='primary'>num_commande</span>,
+    <span class='normal'>poids</span>,
+    <span class='normal'>volume</span>,
+    <span class='foreign'>num.transporteur</span>
+  )
+</div>
+<div>
+  <span class='relation'>VILLES</span> (
+    <span class='primary'>num_ville</span>,
+    <span class='normal'>adresse</span>,
+    <span class='foreign'>num_client</span>,
+    <span class='foreign'>num_ville.1</span>
+  )
+</div>
+<div>
+  <span class='relation'>LIVRE</span> (
+    <span class='foreign primary'>num.transporteur</span>,
+    <span class='foreign primary'>num_ville</span>
+  )
+</div>
+<div>
+  <span class='relation'>TRANSPORTEURS</span> (
+    <span class='primary'>num.transporteur</span>,
+    <span class='normal'>nom_transporteur</span>,
+    <span class='normal'>adresse</span>,
+    <span class='normal'>tarif</span>,
+    <span class='foreign'>num_ville</span>
+  )
+</div>
+</div>
+</body>
+</html>

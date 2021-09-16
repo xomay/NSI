@@ -1,0 +1,148 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="674" height="287" view_box="0 0 674 287"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Thu, 16 Sep 2021 00:26:14</desc>
+
+<rect id="frame" x="0" y="0" width="674" height="287" fill="#f5f5f5" stroke="none" stroke-width="0"/>
+
+<!-- Association RESIDE -->
+<line x1="186" y1="51" x2="186" y2="143" stroke="#bf812d" stroke-width="2"/>
+<text x="191.0" y="110" fill="#01665e" font-family="Verdana" font-size="12">1,N</text>
+<line x1="186" y1="227" x2="186" y2="143" stroke="#bf812d" stroke-width="2"/>
+<text x="191.0" y="185" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-RESIDE">
+	<path d="M 203 118 a 14 14 90 0 1 14 14 V 143 h -62 V 132 a 14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+	<path d="M 217 143.0 v 11 a 14 14 90 0 1 -14 14 H 169 a 14 14 90 0 1 -14 -14 V 143.0 H 62" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+	<rect x="155" y="118" width="62" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+	<line x1="155" y1="143" x2="217" y2="143" stroke="#bf812d" stroke-width="1"/>
+	<text x="162" y="135.7" fill="#000000" font-family="Verdana" font-size="12">RESIDE</text>
+</g>
+
+<!-- Association LIVRE -->
+<line x1="572" y1="227" x2="309" y2="227" stroke="#bf812d" stroke-width="2"/>
+<text x="484" y="244.0" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+<line x1="186" y1="227" x2="309" y2="227" stroke="#bf812d" stroke-width="2"/>
+<text x="226" y="244.0" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-LIVRE">
+	<path d="M 321 202 a 14 14 90 0 1 14 14 V 227 h -52 V 216 a 14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+	<path d="M 335 227.0 v 11 a 14 14 90 0 1 -14 14 H 297 a 14 14 90 0 1 -14 -14 V 227.0 H 52" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+	<rect x="283" y="202" width="52" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+	<line x1="283" y1="227" x2="335" y2="227" stroke="#bf812d" stroke-width="1"/>
+	<text x="290" y="219.7" fill="#000000" font-family="Verdana" font-size="12">LIVRE</text>
+</g>
+
+<!-- Association ATTRIBUER -->
+<path d="M572 227 C 567.207832076 190.248889332 479.541165409 162.248889332 309 143" fill="none" stroke="#bf812d" stroke-width="2"/>
+<text x="484" y="195.513427951" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+<line x1="449" y1="51" x2="309" y2="143" stroke="#bf812d" stroke-width="2"/>
+<text x="367" y="84.8449633896" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-ATTRIBUER">
+	<path d="M 337 118 a 14 14 90 0 1 14 14 V 143 h -84 V 132 a 14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+	<path d="M 351 143.0 v 11 a 14 14 90 0 1 -14 14 H 281 a 14 14 90 0 1 -14 -14 V 143.0 H 84" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+	<rect x="267" y="118" width="84" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+	<line x1="267" y1="143" x2="351" y2="143" stroke="#bf812d" stroke-width="1"/>
+	<text x="274" y="135.7" fill="#000000" font-family="Verdana" font-size="12">ATTRIBUER</text>
+</g>
+
+<!-- Association EST_DISTANCE -->
+<path d="M186 227 C 159.333333333 260.333333333 118.666666667 260.333333333 64 227" fill="none" stroke="#bf812d" stroke-width="2"/>
+<text x="125" y="242.0" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+<path d="M186 227 C 159.333333333 193.666666667 118.666666667 193.666666667 64 227" fill="none" stroke="#bf812d" stroke-width="2"/>
+<text x="125" y="221.0" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-EST_DISTANCE">
+	<path d="M 105 202 a 14 14 90 0 1 14 14 V 227 h -110 V 216 a 14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+	<path d="M 119 227.0 v 11 a 14 14 90 0 1 -14 14 H 23 a 14 14 90 0 1 -14 -14 V 227.0 H 110" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+	<rect x="9" y="202" width="110" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+	<line x1="9" y1="227" x2="119" y2="227" stroke="#bf812d" stroke-width="1"/>
+	<text x="16" y="219.7" fill="#000000" font-family="Verdana" font-size="12">EST_DISTANCE</text>
+</g>
+
+<!-- Association RESPONSABLE -->
+<line x1="186" y1="51" x2="309" y2="51" stroke="#bf812d" stroke-width="2"/>
+<text x="230" y="68.0" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+<line x1="449" y1="51" x2="309" y2="51" stroke="#bf812d" stroke-width="2"/>
+<text x="366" y="43.0" fill="#01665e" font-family="Verdana" font-size="12">1,N</text>
+<g id="association-RESPONSABLE">
+	<path d="M 347 26 a 14 14 90 0 1 14 14 V 51 h -104 V 40 a 14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+	<path d="M 361 51.0 v 11 a 14 14 90 0 1 -14 14 H 271 a 14 14 90 0 1 -14 -14 V 51.0 H 104" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+	<rect x="257" y="26" width="104" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+	<line x1="257" y1="51" x2="361" y2="51" stroke="#bf812d" stroke-width="1"/>
+	<text x="264" y="43.7" fill="#000000" font-family="Verdana" font-size="12">RESPONSABLE</text>
+</g>
+
+<!-- Association SITUER -->
+<line x1="572" y1="227" x2="449" y2="227" stroke="#bf812d" stroke-width="2"/>
+<text x="485" y="244.0" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+<line x1="186" y1="227" x2="449" y2="227" stroke="#bf812d" stroke-width="2"/>
+<text x="226" y="244.0" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-SITUER">
+	<path d="M 465 202 a 14 14 90 0 1 14 14 V 227 h -60 V 216 a 14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+	<path d="M 479 227.0 v 11 a 14 14 90 0 1 -14 14 H 433 a 14 14 90 0 1 -14 -14 V 227.0 H 60" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+	<rect x="419" y="202" width="60" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+	<line x1="419" y1="227" x2="479" y2="227" stroke="#bf812d" stroke-width="1"/>
+	<text x="426" y="219.7" fill="#000000" font-family="Verdana" font-size="12">SITUER</text>
+</g>
+
+<!-- Entity VILLES -->
+<g id="entity-VILLES">
+	<g id="frame-VILLES">
+		<rect x="151" y="193" width="70" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<rect x="151" y="218.0" width="70" height="43" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="151" y="193" width="70" height="68" fill="none" stroke="#35978f" stroke-width="2"/>
+		<line x1="151" y1="218" x2="221" y2="218" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="164" y="210.7" fill="#000000" font-family="Verdana" font-size="12">VILLES</text>
+	<text x="156" y="235.8" fill="#000000" font-family="Verdana" font-size="12">num_ville</text>
+	<line x1="156" y1="238" x2="216" y2="238" stroke="#000000" stroke-width="1"/>
+	<text x="156" y="252.8" fill="#000000" font-family="Verdana" font-size="12">adresse</text>
+</g>
+
+<!-- Entity CLIENTS -->
+<g id="entity-CLIENTS">
+	<g id="frame-CLIENTS">
+		<rect x="147" y="9" width="78" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<rect x="147" y="34.0" width="78" height="59" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="147" y="9" width="78" height="84" fill="none" stroke="#35978f" stroke-width="2"/>
+		<line x1="147" y1="34" x2="225" y2="34" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="159" y="26.7" fill="#000000" font-family="Verdana" font-size="12">CLIENTS</text>
+	<text x="152" y="51.8" fill="#000000" font-family="Verdana" font-size="12">num_client</text>
+	<line x1="152" y1="54" x2="220" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="152" y="68.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+	<text x="152" y="85.8" fill="#000000" font-family="Verdana" font-size="12">adresse</text>
+</g>
+
+<!-- Entity COMMANDES -->
+<g id="entity-COMMANDES">
+	<g id="frame-COMMANDES">
+		<rect x="393" y="9" width="112" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<rect x="393" y="34.0" width="112" height="59" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="393" y="9" width="112" height="84" fill="none" stroke="#35978f" stroke-width="2"/>
+		<line x1="393" y1="34" x2="505" y2="34" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="408" y="26.7" fill="#000000" font-family="Verdana" font-size="12">COMMANDES</text>
+	<text x="398" y="51.8" fill="#000000" font-family="Verdana" font-size="12">num_commande</text>
+	<line x1="398" y1="54" x2="500" y2="54" stroke="#000000" stroke-width="1"/>
+	<text x="398" y="68.8" fill="#000000" font-family="Verdana" font-size="12">poids</text>
+	<text x="398" y="85.8" fill="#000000" font-family="Verdana" font-size="12">volume</text>
+</g>
+
+<!-- Entity TRANSPORTEURS -->
+<g id="entity-TRANSPORTEURS">
+	<g id="frame-TRANSPORTEURS">
+		<rect x="511" y="176" width="122" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<rect x="511" y="201.0" width="122" height="77" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="511" y="176" width="122" height="102" fill="none" stroke="#35978f" stroke-width="2"/>
+		<line x1="511" y1="201" x2="633" y2="201" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="518" y="193.7" fill="#000000" font-family="Verdana" font-size="12">TRANSPORTEURS</text>
+	<text x="516" y="218.7" fill="#000000" font-family="Verdana" font-size="12">num.transporteur</text>
+	<line x1="516" y1="221" x2="624" y2="221" stroke="#000000" stroke-width="1"/>
+	<text x="516" y="235.8" fill="#000000" font-family="Verdana" font-size="12">nom_transporteur</text>
+	<text x="516" y="252.8" fill="#000000" font-family="Verdana" font-size="12">adresse</text>
+	<text x="516" y="269.8" fill="#000000" font-family="Verdana" font-size="12">tarif</text>
+</g>
+</svg>
