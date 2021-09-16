@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TP-2</title>
+  <style>
+    .visible {
+      display: bloc
+    }
+
+    .invisible {
+      display: none
+    }
+  </style>
+
+  <script src="TP2.js"></script>
+
+</head>
+
+<body>
+  <input id="mon_texte" type="text" value="toto" /><br>
+  <div id="ma_zone"> Voici du contenu </div><br>
+  <div id="ma_zone2"> On va cacher ça !</div><br>
+  <button id="bnt1"
+    onmouseover="apercu()"
+    onclick="copier()">
+    Copier
+  </button><br>
+  <button id="bnt2"
+    onclick="changerCouleur('#80Ff80')"
+    onmouseover="changerCouleur('#FF8080')">
+    Changer couleur
+  </button><br>
+  <button id="bnt3"
+  class="visible"
+  onclick="cacher()">
+  Cacher
+  </button>
+  <button id="bnt4"
+  class="visible"
+  onclick="montrer()">
+  Afficher
+  </button><br>
+</body>
+
+</html>

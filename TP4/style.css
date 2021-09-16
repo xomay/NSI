@@ -1,0 +1,11 @@
+.popup{
+  width: 400px;
+  height: 450px;
+  margin: 10% auto;
+  padding: 30px;
+  border: solid 1px;
+  box-shadow: 12px 12px 10px 3px rgba(0, 0, 0, .5);
+}
+.validation{
+  margin-left: 180px
+}

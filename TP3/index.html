@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Page de connexion</title>
+    <link href="TP3.css" rel="stylesheet" type="text/css">
+    <script src="TP3.js"></script>
+  </head>
+  <body>
+
+    <form class="popup" method="post" action="https://dagfa.fr/nsi/traitement.php">
+      <label for="login">Identifiant</label> : <br>
+      <input type="text" id="login" name="login"><br>
+      <label for="mail">Adresse mail</label> : <br>
+      <input type="email" id="mail" name="mail"><br>
+      <label for="password">Mot de passe</label> : <br>
+      <input type="password" id="password" name="password" required pattern="{5,10}[A-Z][a-z]" onchange="visible()"/><br>
+      <input type="hidden" name="ninja" value="Le numéro de carte bleu est 4979 1234 5678 9123" />
+
+      <div class="button_list">
+        <input type="button" id="effacer" name="effacer" value="Effacer" />
+
+        <input type="submit" id="valider" name="valider" value="Valider" onchange="visible()" />
+      </div>
+    </form>
+
+  </body>
+</html>
